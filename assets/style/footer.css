@@ -1,0 +1,44 @@
+.footer {
+
+    width: 100%;
+
+    background: #111;
+
+    border-top: 4px solid #ffd400;
+
+    padding: 40px 20px;
+}
+
+.footer-content {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.footer-content h3 {
+
+    color: #ffd400;
+
+    font-size: 1.5rem;
+
+    margin-bottom: 10px;
+
+    font-weight: 900;
+}
+
+.footer-content p {
+
+    color: #f5e6c8;
+
+    margin-bottom: 15px;
+}
+
+.footer-content span {
+
+    color: #999;
+
+    font-size: .9rem;
+}

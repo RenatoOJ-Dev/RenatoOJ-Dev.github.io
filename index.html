@@ -4,24 +4,25 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Preview Hero Renato</title>
-    <link rel="stylesheet" href="style.css">
-
-    <style>
-
-    </style>
+    <title>Renato Oliveira</title>
+    <link rel="stylesheet" href="assets/style/static.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/projects.css">
+    <link rel="stylesheet" href="assets/style/about.css">
+    <link rel="stylesheet" href="assets/style/technology.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
 </head>
 
 <body>
-    <div class="preview">
+    <div class="preview" id="hero">
         <header>
             <div>RENATO.DEV</div>
 
             <nav>
-                <a href="#">Sobre</a>
-                <a href="#">Tecnologias</a>
-                <a href="#">Projetos</a>
-                <a href="#">Contato</a>
+                <a href="#about">Sobre</a>
+                <a href="#technology">Tecnologias</a>
+                <a href="#projects">Projetos</a>
+                <a href="#technology">Contato</a>
             </nav>
         </header>
 
@@ -39,7 +40,7 @@
                 </p>
 
                 <div class="buttons">
-                    <a href="#" class="btn primary">Ver projetos</a>
+                    <a href="#projects" class="btn primary">Ver projetos</a>
                     <a href="https://github.com/RenatoOJ-Dev" class="btn secondary" target="_blank">GitHub</a>
                     <a href="https://linkedin.com/in/renato-oliveira-de-jesus" class="btn secondary"
                         target="_blank">Linkedin</a>
@@ -50,10 +51,169 @@
                 <div class="circle"></div>
             </section>
         </main>
-
         <div class="sticker">DIRETO DO ES</div>
         <div class="scroll">↓ desce aí</div>
     </div>
+    <!-- my projects -->
+    <section class="projects" id="projetos">
+
+        <article class="project-slide docmorph" id="projects">
+            <span class="section-label">02 • projetos</span>
+
+            <div class="project-content">
+                <span class="project-number">01</span>
+
+                <h2>DOC<br>MORPH</h2>
+
+                <p>
+                    Sistema multi-agente para transformação inteligente de documentos,
+                    permitindo conversão entre PDF e Markdown com preservação estrutural
+                    e reaproveitamento de layouts.
+                </p>
+
+                <a href="https://github.com/RenatoOJ-Dev/DocMorph" target="_blank">
+                    Ver no GitHub
+                </a>
+            </div>
+        </article>
+
+        <article class="project-slide rag">
+            <div class="project-content">
+                <span class="project-number">02</span>
+
+                <h2>RAG<br>APP</h2>
+
+                <p>
+                    Aplicação baseada em RAG usando busca semântica e IA generativa para
+                    responder perguntas com base em conhecimento privado.
+                </p>
+
+                <a href="https://github.com/RenatoOJ-Dev/rag_app" target="_blank">
+                    Ver no GitHub
+                </a>
+            </div>
+        </article>
+
+        <article class="project-slide ixc">
+            <div class="project-content">
+                <span class="project-number">03</span>
+
+                <h2>IXC API<br>PROJECT</h2>
+
+                <p>
+                    Dashboard de monitoramento de ordens de serviço com atualização em
+                    tempo real via API do IXC ERP e Redis como camada de cache.
+                </p>
+
+                <a href="https://github.com/RenatoOJ-Dev/ixc_api_project" target="_blank">
+                    Ver no GitHub
+                </a>
+            </div>
+        </article>
+
+    </section>
+    <!-- about me -->
+    <section class="about" id="sobre">
+        <span class="section-label about-label" id="about">03 • sobre</span>
+
+        <div class="about-content">
+            <div class="about-title">
+                <h2>
+                    TRABALHO<br>
+                    ESTUDO<br>
+                    PROJETOS
+                </h2>
+            </div>
+
+            <div class="about-text">
+                <p>
+                    Durante o dia trabalho, à noite estudo e, nos intervalos,
+                    construo projetos. Foi assim que comecei minha trajetória na
+                    tecnologia: aprendendo na prática, errando, ajustando e evoluindo
+                    continuamente.
+                </p>
+
+                <div class="about-tags">
+                    <span>Vitória • ES</span>
+                    <span>ADS</span>
+                    <span>Em construção</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- tecnology -->
+    <section class="tech-contact" id="tecnologias">
+
+        <span class="section-label tech-label" id="technology">
+            04 • tecnologias & contato
+        </span>
+
+        <div class="tech-contact-content">
+
+            <div class="tech-side">
+
+                <h2>
+                    TECNOLOGIAS
+                </h2>
+
+                <div class="tech-list">
+                    <span>PYTHON</span>
+                    <span>JAVASCRIPT</span>
+                    <span>DJANGO</span>
+                    <span>SQL</span>
+                    <span>DOCKER</span>
+                    <span>GIT</span>
+                    <span>LINUX</span>
+                </div>
+
+            </div>
+
+            <div class="contact-side">
+
+                <h2>
+                    VAMOS<br>
+                    CONVERSAR
+                </h2>
+
+                <div class="contact-links">
+
+                    <a href="https://github.com/RenatoOJ-Dev" target="_blank">
+                        GitHub
+                    </a>
+
+                    <a href="https://linkedin.com/in/renato-oliveira-de-jesus" target="_blank">
+                        LinkedIn
+                    </a>
+
+                    <a href="mailto:renato.j.oliveira@gmail.com">
+                        E-mail
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="return-top"><a href="#hero">Volte ao topo</a></div>
+
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+
+            <h3>RENATO.DEV</h3>
+
+            <p>
+                Feito com HTML, CSS e café.
+            </p>
+
+            <span>
+                © 2026 Renato Oliveira
+            </span>
+            <p>Esse site é apenas um teste, não e algo que vou manter por muito tempo. <br>
+                mas se ficar ai não tem problema tambem. kkkkk
+            </p>
+
+        </div>
+    </footer>
+
 </body>
 
 </html>
